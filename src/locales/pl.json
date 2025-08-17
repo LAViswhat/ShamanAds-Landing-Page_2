@@ -1,0 +1,260 @@
+{
+  "topline": {
+    "offer_today": "OFERTA WAŻNA TYLKO DZISIAJ,"
+  },
+  "hero": {
+    "subtitle": "ABY ZAWSZE BYĆ W FORMIE BEZ DIET I TRENINGÓW",
+    "title": {
+      "part1": "NOWA METODA ODCHUDZANIA",
+      "part2": "STOSOWANA PRZEZ MODELE VIP"
+    },
+    "price": {
+      "original": "zamiast",
+      "discount": "tylko"
+    },
+    "product_alt": "ABslim - Suplement na odchudzanie",
+    "benefits": {
+      "normalization": "Normalizacja",
+      "appetite": "Apetytu",
+      "metabolism": "Przyspieszenie metabolizmu",
+      "fights": "Zwalcza",
+      "cellulite": "Skutecznie cellulit",
+      "natural": "Naturalny",
+      "fast": "Szybkie",
+      "fat_burning": "Spalanie tłuszczu",
+      "no": "Bez",
+      "contraindications": "Przeciwwskazań",
+      "daily": "Codziennie",
+      "visible_results": "Widoczne rezultaty",
+      "effect": "Efekt",
+      "antioxidant": "Przeciwutleniacz"
+    },
+    "key_benefits": {
+      "metabolism": "Przyspiesza metabolizm i spala wszystkie spożyte kalorie.",
+      "new_formula": "Nowa ulepszona formuła na rok 2025",
+      "permanent_result": "Trwały i długotrwały efekt"
+    },
+    "works_in_sleep": "Działa nawet podczas snu!",
+    "reviews": "{count} pozytywnych opinii"
+  },
+  "product": {
+    "firstList": [
+      "Zauważysz widoczne zmiany natychmiast",
+      "Efekt będzie trwały i długoterminowy",
+      "Poczujesz się bardziej atrakcyjna i pożądana",
+      "Zniknie uczucie wzdęcia i zmęczenia"
+    ],
+    "secondList": [
+      "Unikniesz niepotrzebnych dietetyków i diet",
+      "Założysz strój kąpielowy bez dyskomfortu",
+      "Mężczyźni będą się za Tobą oglądać",
+      "Pomaga schudnąć nawet w okresie menopauzy"
+    ],
+    "reviews": "27 874 pozytywnych opinii",
+    "new_formula": "Nowa ulepszona formuła roku {year}",
+    "burns_fat": "Spala tłuszcz przez cały dzień, nawet podczas snu"
+  },
+  "timer": {
+    "title": "JEŚLI ZŁOŻYSZ ZAMÓWIENIE W CIĄGU:",
+    "minutes": "minuty",
+    "seconds": "sekundy",
+    "instead_of": "zamiast",
+    "old_price": "485 PLN",
+    "only": "tylko",
+    "new_price": "111 PLN!",
+    "left": "Pozostało",
+    "pieces": "sztuk",
+    "in_stock": "w magazynie",
+    "dialog_left": "Pozostało tylko",
+    "dialog_to_finish": "aby dokończyć zamówienie!",
+    "dialog_last": "Ostatnie",
+    "dialog_at_this_price": "w tej cenie!",
+    "sticky_at_this_price": "w tej cenie!",
+    "sticky_at_this_price_product": "tylko {price}PLN!"
+  },
+  "form": {
+    "title": "WYPEŁNIJ OFICJALNY FORMULARZ ZAMÓWIENIA",
+    "subtitle": "aby otrzymać",
+    "with_discount": "ze zniżką",
+    "discount": "77%",
+    "name_label": "Twoje imię i nazwisko:",
+    "name_placeholder": "Na przykład: Anna Kowalska",
+    "phone_label": "Twój numer telefonu:",
+    "phone_placeholder": "123 456 789",
+    "submit": "ZAMÓW ZE ZNIŻKĄ",
+    "processing": "Przetwarzanie danych...",
+    "privacy": "Twoje dane nie zostaną przekazane ani sprzedane osobom trzecim.",
+    "errors": {
+      "username": "Błąd: pole wymagane (min. 3 znaki)",
+      "phone_required": "Błąd: pole wymagane.",
+      "phone_invalid": "Błąd: nieprawidłowy numer telefonu."
+    }
+  },
+  "results": {
+    "title": "Wyniki są po prostu niesamowite!",
+    "name": "Wynik {number}",
+    "more": "Zobacz więcej",
+    "0": {
+      "before": "23 maja 2025",
+      "after": "13 czerwca 2025"
+    },
+    "1": {
+      "before": "22 kwietnia 2025",
+      "after": "22 maja 2025"
+    },
+    "2": {
+      "before": "25 maja 2025",
+      "after": "19 czerwca 2025"
+    },
+    "3": {
+      "before": "18 maja 2025",
+      "after": "27 czerwca 2025"
+    },
+    "4": {
+      "before": "29 marca 2025",
+      "after": "22 kwietnia 2025"
+    },
+    "5": {
+      "before": "07 maja 2025",
+      "after": "14 czerwca 2025"
+    }
+  },
+  "reviews": {
+    "title": "Ponad",
+    "title_suffix": "kobiet i mężczyzn z Polski już osiągnęło niesamowite efekty",
+    "subtitle": "Produkt został zakupiony już",
+    "subtitle_suffix": "razy"
+  },
+  "buttons": {
+    "want_to_order": "CHCĘ ZAMÓWIĆ",
+    "order_now": "ZAMÓW TERAZ - OFERTA LIMITOWANA"
+  },
+  "benefits": {
+    "title": "DZIAŁAJ TERAZ",
+    "subtitle": "Im dłużej zwlekasz, tym trudniej będzie się pozbyć tego, co się codziennie odkłada",
+    "thyroid": "Odpowiedni również przy problemach z tarczycą",
+    "blood_pressure": "Nie wpływa na ciśnienie krwi",
+    "menopause": "Polecany kobietom w okresie menopauzy",
+    "substance": "ABslim zawiera bogatą mieszankę substancji bioaktywnych, witamin i przeciwutleniaczy.",
+    "efficiency": "Produkt jest dziesiątki razy skuteczniejszy niż popularne środki na odchudzanie, ale co ważniejsze - jest bezpieczny dla organizmu."
+  },
+  "recommendations": {
+    "title": "polecany przez specjalistów ds. żywienia!",
+    "fast_effect": "szybki i długotrwały efekt;",
+    "natural_composition": "unikalny skład, w 100% naturalny i bezpieczny;",
+    "no_side_effects": "bez skutków ubocznych, polecany również dla alergików;",
+    "development_cost": "wydano 47 milionów euro na rozwój;",
+    "tests_performed": "przeprowadzono 2577 testów;",
+    "approved": "przetestowany przez specjalistów i zatwierdzony przez Ministerstwo Zdrowia.",
+    "advantages": "ma niezaprzeczalne zalety, dlatego polecam go moim pacjentom:",
+    "doctor": {
+      "last_name": "Enache",
+      "full_name": "Camelia Ioana",
+      "specialty": "Dietetyk",
+      "experience": "Doświadczenie od 2006 roku"
+    }
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "delivery_terms": {
+      "question": "Jaki jest czas dostawy?",
+      "answer": "Zazwyczaj przesyłka kurierska dociera w ciągu 2–3 dni roboczych."
+    },
+    "cod": {
+      "question": "Czy mogę zapłacić przy odbiorze?",
+      "answer": "Tak, dla Twojej wygody i bezpieczeństwa oferujemy płatność przy odbiorze – zapłacisz kurierowi w momencie dostarczenia zamówienia."
+    },
+    "data_security": {
+      "question": "Czy moje dane są bezpieczne?",
+      "answer": "Oczywiście, symbol kłódki i https w pasku adresu przeglądarki oznaczają, że Twoje dane są w pełni bezpieczne i trafiają bezpośrednio do operatora wysyłki. Szczegóły znajdziesz w naszej polityce prywatności."
+    },
+    "more_info": {
+      "question": "Czy mogę uzyskać więcej informacji?",
+      "answer": "Tak! Jeśli wypełniłaś formularz zamówienia, ale masz wątpliwości — poczekaj na kontakt od naszego konsultanta, który odpowie na wszystkie pytania przed finalizacją zamówienia."
+    }
+  },
+  "guarantee": {
+    "triple_guarantee": "POTRÓJNA GWARANCJA SKUTECZNOŚCI!",
+    "confidence": "Jesteśmy tak pewni skuteczności",
+    "offer": "że oferujemy niespotykaną potrójną gwarancję:",
+    "weight_loss": "Jeśli nie schudniesz co najmniej 10–15 kg w ciągu 30 dni, zwrócimy Ci wszystkie pieniądze!",
+    "double_money": "Dodatkowo wypłacimy Ci podwójną wartość produktu!",
+    "free_treatment": "Otrzymasz również dodatkowy darmowy zestaw ABslim, abyś mogła w pełni przekonać się o skuteczności!",
+    "no_risk": "Nie ryzykujesz niczego — całą odpowiedzialność bierzemy na siebie, bo jesteśmy absolutnie przekonani:",
+    "works": "TO DZIAŁA!"
+  },
+  "order": {
+    "title": "Jak zamówić",
+    "steps": {
+      "application": "Zostaw zgłoszenie na naszej stronie (wystarczy imię i numer telefonu).",
+      "consultation": "Nasz specjalista skontaktuje się z Tobą, przeprowadzi konsultację i ustali szczegóły zamówienia.",
+      "delivery": "Otrzymasz VitaSlim w ciągu 2–3 dni.",
+      "payment": "Zapłacisz dopiero przy odbiorze."
+    }
+  },
+  "warningDialog": {
+    "title": "Uwaga!",
+    "delivery_notice": {
+      "part1": "Uwaga: kolejna dostawa",
+      "part2": "jest planowana dopiero za",
+      "part3": "więc nie możemy zagwarantować tej samej ceny.",
+      "months": "{count} miesięcy"
+    },
+    "ingredients": {
+      "part1": "Składniki produktu",
+      "part2": "pochodzą wyłącznie z naturalnych źródeł, są dostępne w ograniczonych ilościach i poddawane ścisłej kontroli jakości, co utrudnia masową produkcję i dostępność"
+    },
+    "stock": {
+      "part1": "Pozostało tylko",
+      "part2": "w specjalnej cenie",
+      "part3": "zamiast",
+      "items_left": "{count} sztuk",
+      "special_price": "{price} PLN",
+      "old_price": "{price} PLN"
+    }
+  },
+  "testimonials": {
+    "title": "Opinie naszych klientów",
+    "subtitle": "Recenzje osób, które już schudły!",
+    "image_alt": "ABslim opinia od {name}",
+    "success_rate": "98%",
+    "success_rate_label": "Wskaźnik sukcesu",
+    "average_rating": "4.9 ★",
+    "rating_label": "Średnia ocena",
+    "0": {
+      "name": "Elena, 48 lat",
+      "title": "Najskuteczniejsza metoda odchudzania!",
+      "content": "Po pierwszej kuracji schudłam 14 kilogramów! Ale zdecydowałam się na drugą kurację, bo została połowa butelki kropli. Po drugiej kuracji, czyli po około 6 tygodniach, schudłam w sumie 23 kilogramy! Teraz jest koniec września, ale od kiedy skończyły się krople, czyli w kwietniu, moja waga jest stabilna: 52–53 kilogramy, i jak wcześniej, unikam tylko napojów gazowanych.",
+      "weight": "23 kg"
+    },
+    "1": {
+      "name": "Joanna, 56 lat",
+      "title": "Moje przyjaciółki schudły 10–12 kg.",
+      "content": "Dowiedziałam się o kroplach przypadkiem, w grupie przyjaciół. Trzy osoby schudły dzięki tym kroplom, zamówiły je z USA. Wszyscy schudli po 10–12 kg w miesiąc!",
+      "weight": "12 kg"
+    },
+    "2": {
+      "name": "Róża, 59 lata",
+      "title": "Sylwetka nastolatki po 35 latach",
+      "content": "Kiedy mówię 'sylwetka nastolatki', mówię to dosłownie. Bez cellulitu, bez obwisłych kształtów, bez zmarszczek na łokciach, bez fałd na plecach, bez obwisłej skóry pod brodą lub miękkich wałeczków przy uszach (to się zdarza przy szybkiej utracie wielu kg) i przy ustach, młoda szyja, nieco mniejsze piersi, ale zachowały kształt, skóra jest jędrna i świeża, płaski i umięśniony brzuch. I to wszystko bez sportu! (zabroniony zgodnie z protokołem dietetycznym). I dodatkowo: w 80 dni diety minus 13 kg (z 66 kg do 53 kg), a mam ponad 40 lat. Teraz wiem dosłownie, co oznacza wyrażenie 'opadła Ci szczęka'.",
+      "weight": "13 kg"
+    }
+  },
+  "ingredients": {
+    "title": "Skład w 100% naturalny",
+    "subtitle": "Dzięki unikalnym substancjom zawartym w składzie metabolizm jest przyspieszony, a ilość złogów tłuszczu szybko się zmniejsza.",
+    "product_alt": "Butelki ABslim",
+    "0": "Ananas comosus",
+    "1": "liście papai",
+    "2": "limonka meksykańska",
+    "3": "Niacyna",
+    "4": "kumkwat",
+    "5": "Gymnema sylvestre",
+    "6": "cynamon",
+    "benefits": [
+      "Rozkłada tłuszcz podskórny i trzewny zgromadzony na narządach wewnętrznych",
+      "Wzbogaca organizm w pożyteczne minerały i poprawia ogólny stan zdrowia",
+      "Poprawia metabolizm i przywraca zdrową mikroflorę jelitową"
+    ]
+  }
+}
