@@ -139,7 +139,7 @@
     "development_cost": "lorem ipsum dolor sit amet;",
     "tests_performed": "lorem ipsum dolor sit amet;",
     "approved": "lorem ipsum dolor sit amet.",
-    "advantages": "lorem ipsum dolor sit amet:",
+    "advantages": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt:",
     "doctor": {
       "last_name": "Lorem",
       "full_name": "Ipsum Dolor",
@@ -167,7 +167,7 @@
     }
   },
   "guarantee": {
-    "triple_guarantee": "LOREM IPSUM DOLOR SIT AMET!",
+    "triple_guarantee": "LOREM IPSUM DOLOR SIT",
     "confidence": "Lorem ipsum dolor sit amet",
     "offer": "lorem ipsum dolor sit amet:",
     "weight_loss_title": "Lorem ipsum",

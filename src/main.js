@@ -1,4 +1,4 @@
-import './assets/main.css';
+import './assets/landings/shamanlanding/main.css';
 
 import { createApp } from 'vue';
 import App from './App.vue';
@@ -7,6 +7,7 @@ import { createI18n } from 'vue-i18n';
 import PrimeVue from 'primevue/config';
 import Aura from '@primeuix/themes/aura';
 import AnimateOnScroll from 'primevue/animateonscroll';
+import VueSplide from '@splidejs/vue-splide';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import {
@@ -20,6 +21,7 @@ import {
   faBolt,
   faStar,
   faMoon,
+  faCircleInfo,
 } from '@fortawesome/free-solid-svg-icons';
 import ro from './locales/ro.json';
 import pl from './locales/pl.json';
@@ -35,6 +37,7 @@ library.add(
   faBolt,
   faStar,
   faMoon,
+  faCircleInfo,
 );
 
 const i18n = createI18n({
@@ -76,6 +79,7 @@ app
     },
     ripple: true,
   })
+  .use(VueSplide)
   .directive('animateonscroll', AnimateOnScroll);
 
 app.mount('#app');
