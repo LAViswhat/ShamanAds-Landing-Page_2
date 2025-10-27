@@ -433,5 +433,31 @@
     "supply_notice": "Lorem ipsum dolor sit amet!",
     "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "description2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "landingSelector": {
+    "title": "Alege Landing Page",
+    "toggle": "Comutare pagini",
+    "close": "Închide",
+    "switchInfo": "Select landing page",
+    "landings": {
+      "shaman": {
+        "name": "Shaman Landing",
+        "title": "Landing_1",
+        "shortDesc": "Tema naturală cu elemente organice",
+        "description": "Design inspirat din natură cu elemente verzi"
+      },
+      "medical": {
+        "name": "Medical Landing",
+        "title": "Landing_2",
+        "shortDesc": "Tema medicală profesională",
+        "description": "Design medical cu accent pe încredere și profesionalism"
+      },
+      "sexy": {
+        "name": "Sexy Landing",
+        "title": "Landing_3",
+        "shortDesc": "Tema modernă și atractivă",
+        "description": "Design sexy și captivant pentru publicul tânăr"
+      }
+    }
   }
 }

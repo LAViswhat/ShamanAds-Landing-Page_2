@@ -1,5 +1,7 @@
 <script setup>
 import { defineAsyncComponent } from 'vue';
+// Импорт стилей shamanlanding
+import '@/assets/landings/shamanlanding/main.css';
 import Hero from '@/components/landings/shamanlanding/layout/Hero.vue';
 import B_Block_Reviews_Video from '@/components/landings/shamanlanding/blocks/B_Block_Reviews_Video.vue';
 import H_Block_Testimonials_with_Avatar from '@/components/landings/shamanlanding/blocks/H_Block_Testimonials_with_Avatar.vue';
@@ -18,6 +20,7 @@ const Block_OrderFAQ = defineAsyncComponent(
 );
 import UiScrollDialog from '@/components/landings/shamanlanding/ui/UiScrollDialog.vue';
 import Footer from '@/components/landings/shamanlanding/layout/Footer.vue';
+import LandingSelector from '@/components/shared/LandingSelector.vue';
 
 const Block_Partners = defineAsyncComponent(
   () => import('@/components/landings/shamanlanding/blocks/BlockPartner.vue'),
@@ -42,4 +45,7 @@ const TeaserPopup = defineAsyncComponent(
   <Block_OrderFAQ class="mb-8" />
   <TeaserPopup />
   <Footer />
+
+  <!-- Landing Selector Component -->
+  <LandingSelector />
 </template>

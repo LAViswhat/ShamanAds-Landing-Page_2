@@ -1,4 +1,4 @@
-:root {
+.landing-medicallanding {
   /* New hero-based colors converted to HEX */
   --background: hsl(210, 20%, 98%); /* #fbfbf9 */
   --foreground: hsl(215, 25%, 27%); /* #0c0a09 */
@@ -126,7 +126,7 @@
 }
 
 /* semantic color variables for this project */
-:root {
+.landing-medicallanding {
   --color-background: var(--background);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
@@ -380,7 +380,7 @@ body {
 }
 
 @layer base {
-  :root {
+  .landing-medicallanding {
     --p-button-label-font-weight: 600 !important;
 
     --p-button-primary-background: var(--gradient-hero) !important;

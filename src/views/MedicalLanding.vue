@@ -5,6 +5,7 @@ import '@/assets/landings/medicallanding/main.css';
 import Hero from '@/components/landings/medicallanding/layout/Hero.vue';
 import Order_Form from '@/components/landings/medicallanding/layout/Order_Form_Section.vue';
 import Footer from '@/components/landings/medicallanding/layout/Footer.vue';
+import LandingSelector from '@/components/shared/LandingSelector.vue';
 
 const AboutSection = defineAsyncComponent(
   () => import('@/components/landings/medicallanding/blocks/About_Section.vue'),
@@ -44,6 +45,9 @@ const FAQ = defineAsyncComponent(
     <Order_Form id="promo" />
     <FAQ />
     <Footer />
+
+    <!-- Landing Selector Component -->
+    <LandingSelector />
   </main>
 </template>
 

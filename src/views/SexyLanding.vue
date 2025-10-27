@@ -5,6 +5,7 @@ import '@/assets/landings/sexy/main.css';
 import Hero from '@/components/landings/sexy/layout/Hero.vue';
 import Order_Form from '@/components/landings/sexy/layout/Order_Form_Section.vue';
 import Footer from '@/components/landings/sexy/layout/Footer.vue';
+import LandingSelector from '@/components/shared/LandingSelector.vue';
 
 const AboutSection = defineAsyncComponent(
   () => import('@/components/landings/sexy/blocks/About_Section.vue'),
@@ -39,6 +40,9 @@ const FAQ = defineAsyncComponent(() => import('@/components/landings/sexy/blocks
     <Order_Form id="promo" />
     <FAQ />
     <Footer />
+
+    <!-- Landing Selector Component -->
+    <LandingSelector />
   </main>
 </template>
 

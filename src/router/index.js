@@ -38,16 +38,29 @@ const router = createRouter({
 });
 
 // Устанавливаем тему при переходе на роут
-router.beforeEach((to) => {
+router.beforeEach((to, from) => {
   if (to.meta?.title) {
     document.title = to.meta.title;
   }
+  
+  // Очищаем предыдущие CSS классы и атрибуты тем
+  if (from.meta?.theme) {
+    document.body.classList.remove(`landing-${from.meta.theme}`);
+    document.documentElement.removeAttribute('data-theme');
+  }
+  
+  // Устанавливаем новую тему
   if (to.meta?.theme) {
     document.documentElement.setAttribute('data-theme', to.meta.theme);
-    // Убираем все предыдущие классы тем
-    document.body.className = document.body.className.replace(/landing-\w+/g, '');
-    // Добавляем класс текущей темы
     document.body.classList.add(`landing-${to.meta.theme}`);
   }
+  
+  // Принудительная очистка всех возможных классов лендингов
+  const allThemeClasses = ['landing-shamanlanding', 'landing-medicallanding', 'landing-sexy'];
+  allThemeClasses.forEach(className => {
+    if (className !== `landing-${to.meta?.theme}`) {
+      document.body.classList.remove(className);
+    }
+  });
 });
 export default router;
