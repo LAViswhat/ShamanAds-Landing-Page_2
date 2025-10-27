@@ -1,3 +1,4 @@
+// Импортируем стили shamanlanding по умолчанию (как основные)
 import './assets/landings/shamanlanding/main.css';
 
 import { createApp } from 'vue';

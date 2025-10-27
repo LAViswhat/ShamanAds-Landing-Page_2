@@ -160,7 +160,9 @@ function openDialog(ingredient) {
                       class="w-8 h-8 object-cover"
                     />
                   </div>
-                  <h3 class="font-bold text-sm text-center text-gray-800/80 capitalize mb-0 flex-1">
+                  <h3
+                    class="font-bold !text-sm text-center text-gray-800/80 capitalize mb-0 flex-1"
+                  >
                     {{ ingredient.name }}
                   </h3>
                 </div>

@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 340 8% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 8% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 8% 15%;
+
+    --primary: 351 83% 61%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 24 100% 88%;
+    --secondary-foreground: 340 8% 15%;
+
+    --muted: 24 100% 95%;
+    --muted-foreground: 340 20% 45%;
+
+    --accent: 315 45% 75%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 24 100% 92%;
+    --input: 24 100% 92%;
+    --ring: 351 83% 61%;
+
+    /* Custom feminine design tokens */
+    --coral: 351 83% 61%;
+    --coral-light: 351 100% 88%;
+    --rose-gold: 24 100% 88%;
+    --rose-gold-dark: 24 60% 65%;
+    --purple-soft: 315 45% 75%;
+    --pink-blush: 340 100% 95%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--coral)), hsl(var(--rose-gold)));
+    --gradient-secondary: linear-gradient(180deg, hsl(var(--pink-blush)), hsl(var(--background)));
+    --gradient-accent: linear-gradient(45deg, hsl(var(--purple-soft)), hsl(var(--coral-light)));
+
+    /* Elegant shadows */
+    --shadow-coral: 0 10px 30px -10px hsl(var(--coral) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--coral-light) / 0.4);
+    --shadow-soft: 0 4px 20px -2px hsl(var(--coral) / 0.15);
+
+    /* Smooth transitions */
+    --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 340 20% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 340 15% 12%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 340 15% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 351 83% 61%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 15% 18%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 340 15% 18%;
+    --muted-foreground: 340 20% 65%;
+
+    --accent: 315 45% 75%;
+    --accent-foreground: 340 20% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 340 15% 18%;
+    --input: 340 15% 18%;
+    --ring: 351 83% 61%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--coral)), hsl(var(--purple-soft)));
+    --gradient-secondary: linear-gradient(180deg, hsl(var(--background)), hsl(var(--card)));
+    --gradient-accent: linear-gradient(45deg, hsl(var(--accent)), hsl(var(--coral)));
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

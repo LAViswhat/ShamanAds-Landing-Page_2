@@ -3,7 +3,6 @@
 @import 'tailwindcss';
 @import './base.css';
 @import '@splidejs/vue-splide/css';
-@import 'primeicons/primeicons.css';
 
 #app {
   max-width: 1280px;
@@ -11,39 +10,38 @@
   font-weight: normal;
 }
 
-html {
-  font-family: var(--font-body);
-}
+@layer base {
+  html {
+    font-family: var(--font-body);
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  text-transform: uppercase;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    @apply font-bold;
+  }
 
-/* h1 {
-  font-size: 1.875rem;
-  margin-bottom: 1rem;
-}
-h2 {
-  font-size: 1.5rem;
-}
-h3 {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-} */
+  h1 {
+    @apply text-3xl mb-4;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
 
-ul,
-ol {
-  padding-left: 1.5rem;
-}
+  ul,
+  ol {
+    @apply pl-6;
+  }
 
-ul li,
-ol li {
-  margin-bottom: 0.5rem;
+  ul li,
+  ol li {
+    @apply mb-2;
+  }
 }

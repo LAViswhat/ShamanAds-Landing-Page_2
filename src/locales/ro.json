@@ -6,6 +6,7 @@
     "natural": "100% Lorem ipsum",
     "title": "consectetur adipiscing elit",
     "subtitle": "Lorem ipsum dolor sit amet",
+    "cta_button": "LOREM IPSUM DOLOR",
     "benefits": {
       "1": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "2": "Ut enim ad minim veniam quis nostrud exercitation",
@@ -65,7 +66,12 @@
   },
   "form": {
     "title": "LOREM IPSUM DOLOR SIT AMET",
+    "title_offer": "LOREM IPSUM!",
     "subtitle": "lorem ipsum dolor",
+    "without_discount": "În loc de 485 asd",
+    "exclusiv": "LOREM IPSUM",
+    "info_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "info_2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "with_discount": "lorem ipsum",
     "discount": "77%",
     "name_label": "Lorem ipsum:",
@@ -132,38 +138,52 @@
     "efficiency": "Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor."
   },
   "recommendations": {
-    "title": "lorem ipsum dolor sit amet!",
-    "fast_effect": "lorem ipsum dolor sit amet;",
-    "natural_composition": "lorem ipsum dolor sit amet;",
-    "no_side_effects": "lorem ipsum dolor sit amet;",
-    "development_cost": "lorem ipsum dolor sit amet;",
-    "tests_performed": "lorem ipsum dolor sit amet;",
-    "approved": "lorem ipsum dolor sit amet.",
-    "advantages": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt:",
+    "title": "Lorem ipsum dolor sit amet!",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "quote": "Lorem Ipsum este o soluție revoluționară pentru îmbunătățirea sănătății. Prin formula sa avansată, acest produs oferă rezultate clinice dovedite și siguranță maximă pentru pacienți. Recomand cu încredere acest tratament pentru obținerea rezultatelor optime.",
+    "fast_effect": "Lorem ipsum dolor sit amet;",
+    "natural_composition": "Lorem ipsum dolor sit amet.",
+    "no_side_effects": "Lorem ipsum dolor sit amet.",
+    "development_cost": "Lorem ipsum dolor sit amet.",
+    "tests_performed": "Lorem ipsum dolor sit amet;",
+    "approved": "Lorem ipsum dolor sit amet.",
+    "advantages": "Lorem ipsum dolor sit amet.",
     "doctor": {
-      "last_name": "Lorem",
-      "full_name": "Ipsum Dolor",
-      "specialty": "Lorem ipsum",
-      "experience": "Lorem ipsum 2001"
+      "last_name": "John Doe",
+      "full_name": "Dr. John Doe",
+      "specialty": "Lorem, ipsum dolor sit amet",
+      "experience": "lorem ipsum dolor sit amet"
     }
   },
   "faq": {
     "title": "Lorem ipsum",
-    "delivery_terms": {
+    "0": {
       "question": "Lorem ipsum dolor sit amet?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    "cod": {
+    "1": {
       "question": "Lorem ipsum dolor sit amet?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    "data_security": {
+    "2": {
       "question": "Lorem ipsum dolor sit amet?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    "more_info": {
+    "3": {
       "question": "Lorem ipsum dolor sit amet?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "4": {
+      "question": "Lorem ipsum dolor sit amet?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "5": {
+      "question": "Lorem ipsum dolor sit amet?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "6": {
+      "question": "Lorem ipsum dolor sit amet?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   },
   "guarantee": {
@@ -212,41 +232,46 @@
   },
   "testimonials": {
     "title": "Lorem ipsum",
-    "subtitle": "Lorem ipsum dolor sit amet!",
-    "image_alt": "Lorem ipsum {name}",
+    "subtitle": "Lorem ipsum dolor sit amet",
+    "image_alt": "Lorem {name}",
     "success_rate": "95%",
     "success_rate_label": "Lorem ipsum",
     "average_rating": "4.9 ★",
     "rating_label": "Lorem ipsum",
     "0": {
-      "name": "Lorem, 48",
-      "title": "Lorem ipsum dolor sit amet!",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "weight": "21 kg"
+      "name": "Mari",
+      "age": "48 asa",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "weight": "Lorem ipsum%"
     },
     "1": {
-      "name": "Lorem, 56",
+      "name": "Ale",
+      "age": "56 asa",
       "title": "Lorem ipsum dolor sit amet!",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "weight": "50 kg"
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "weight": "Lorem 92%"
     },
     "2": {
-      "name": "Lorem, 59",
-      "title": "Lorem ipsum dolor sit amet!",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "weight": "23 kg"
+      "name": "Io",
+      "age": "59 asa",
+      "title": "Lorem Ipsum Dolor",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "weight": "Lorem 88%"
     },
     "3": {
-      "name": "Lorem, 54",
-      "title": "Lorem ipsum dolor sit amet!",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "weight": "24 kg"
+      "name": "Ghe",
+      "age": "54 asa",
+      "title": "Lorem ipsum!",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "weight": "Lorem 91%"
     },
     "4": {
-      "name": "Lorem, 49",
-      "title": "Lorem ipsum dolor sit amet!",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "weight": "19 kg"
+      "name": "Car",
+      "age": "49 asa",
+      "title": "Lorem ipsum!",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "weight": "Lorem 94%"
     }
   },
   "ingredients": {
@@ -268,6 +293,7 @@
   },
   "statistics": {
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "main_title": "Lorem ipsum dolor sit amet consectetur",
     "results": {
       "title": "Lorem ipsum dolor",
       "1": "Lorem ipsum 22.7",
@@ -281,6 +307,119 @@
       "2": "240 lorem ipsum (45-65)",
       "3": "Lorem ipsum dolor sit",
       "4": "Lorem ipsum dolor"
+    },
+    "labels": {
+      "sample": "Lorem ipsum (240 dolor)",
+      "duration": "Lorem ipsum (12 dolor)",
+      "effectiveness": "Lorem ipsum: 95%",
+      "conclusion": "Lorem ipsum dolor sit amet"
+    },
+    "studies": {
+      "0": {
+        "title": "Lorem ipsum dolor sit amet!",
+        "participants": "Lorem ipsum (240 dolor)",
+        "duration": "Lorem ipsum (12 dolor)",
+        "results": "Lorem ipsum 95%",
+        "conclusion": "Lorem ipsum dolor sit amet"
+      },
+      "1": {
+        "title": "Lorem ipsum dolor sit amet!",
+        "participants": "Lorem ipsum (180 dolor)",
+        "duration": "Lorem ipsum (16 dolor)",
+        "results": "Lorem ipsum 1.4-1.7%",
+        "conclusion": "Lorem ipsum dolor sit amet"
+      },
+      "2": {
+        "title": "Studiu Comparativ - Clinici Europene",
+        "participants": "Lorem ipsum (320 dolor)",
+        "duration": "Lorem ipsum (24 dolor)",
+        "results": "Lorem ipsum 95%",
+        "conclusion": "Lorem ipsum dolor sit amet"
+      }
     }
+  },
+  "about": {
+    "title": "Despre Lorem Ipsum Dolor",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "features": {
+      "0": {
+        "title": "Lorem Ipsum Dolor",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation."
+      },
+      "1": {
+        "title": "Lorem ipsum!",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "2": {
+        "title": "Lorem ipsum!",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      "3": {
+        "title": "Lorem ipsum",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+      }
+    },
+    "how_it_works": {
+      "title": "Lorem ipsum dolor",
+      "product_name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "mechanism": {
+        "0": "Lorem ipsum dolor",
+        "1": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+        "2": "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+        "3": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."
+      }
+    },
+    "parameters": {
+      "title": "Lorem ipsum",
+      "hba1c": "Lorem ipsum:",
+      "stabilization": "Lorem ipsum:",
+      "recovery": "Lorem ipsum:",
+      "target_level": "Lorem ipsum:",
+      "bioavailability": "Lorem ipsum:",
+      "hours": "or",
+      "days": "aie"
+    }
+  },
+  "features": {
+    "title": "Lorem Ipsum Dolor",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "natural_composition": "Lorem ipsum dolor sit amet.",
+    "complex_effects": "Lorem ipsum sit amet, consectetur adipiscing elit.",
+    "items": {
+      "0": {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet."
+      },
+      "1": {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet."
+      },
+      "2": {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet."
+      },
+      "3": {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet."
+      }
+    },
+    "benefits": {
+      "0": "Lorem ipsum dolor sit amet",
+      "1": "Lorem ipsum dolor sit amet",
+      "2": "Lorem ipsum dolor sit amet",
+      "3": "Lorem ipsum dolor sit amet",
+      "4": "Lorem ipsum dolor sit amet",
+      "5": "Lorem ipsum dolor sit amet",
+      "6": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "alert": {
+    "attention": "LOREM!",
+    "title_part1": "Lorem ipsum dolor sit amet",
+    "title_part2": "Lorem Ipsum se epuizează rapid!",
+    "supply_notice": "Lorem ipsum dolor sit amet!",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   }
 }
