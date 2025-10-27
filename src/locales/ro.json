@@ -344,11 +344,23 @@
     "features": {
       "0": {
         "title": "Lorem Ipsum Dolor",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
+        "list": {
+          "0": "✗ Lorem ipsum dolor sit amet",
+          "1": "✗ Lorem ipsum dolor sit amet",
+          "2": "✗ Lorem ipsum dolor sit amet",
+          "3": "✗ Lorem ipsum dolor sit amet"
+        }
       },
       "1": {
         "title": "Lorem ipsum!",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "list": {
+          "0": "✓ Lorem ipsum dolor sit amet",
+          "1": "✓ Lorem ipsum dolor sit amet",
+          "2": "✓ Lorem ipsum dolor sit amet",
+          "3": "✓ Lorem ipsum dolor sit amet"
+        }
       },
       "2": {
         "title": "Lorem ipsum!",
@@ -356,7 +368,7 @@
       },
       "3": {
         "title": "Lorem ipsum",
-        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "descript ion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       }
     },
     "how_it_works": {

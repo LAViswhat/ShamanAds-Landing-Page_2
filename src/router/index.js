@@ -25,6 +25,15 @@ const router = createRouter({
         theme: 'medicallanding',
       },
     },
+    {
+      path: '/landing_3',
+      name: 'Landing_3',
+      component: () => import('@/views/SexyLanding.vue'),
+      meta: {
+        title: 'Landing_3',
+        theme: 'sexy',
+      },
+    },
   ],
 });
 

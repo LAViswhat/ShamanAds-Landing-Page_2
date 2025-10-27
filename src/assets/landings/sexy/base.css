@@ -1,0 +1,509 @@
+:root {
+  /* New hero-based colors converted to HEX */
+  --background: hsl(0 0% 100%); /* #fbfbf9 */
+  --foreground: hsl(340 8% 15%); /* #0c0a09 */
+
+  --color-primary: hsl(24 100% 88%); /* hsl(142 76% 36%) */
+  --primary-foreground: hsl(0, 0%, 100%);
+  --color-primary-hover: #00bd45;
+  --primary-glow: hsl(210, 100%, 60%);
+
+  --color-secondary: hsl(24 100% 88%); /* hsl(25 50% 92%) */
+  --secondary-foreground: hsl(340 8% 15%); /* hsl(20 14% 4%) */
+  --color-secondary-hover: #f5e9e0;
+
+  --color-text-dark: #222;
+  --color-text-light: #1f2937;
+  --color-text-headings: #374151;
+  --color-text-secondary-btn: #374151;
+
+  --coral: hsl(351 83% 61%);
+  --coral-light: hsl(351 100% 88%);
+  --rose-gold: hsl(24 100% 88%);
+  --rose-gold-dark: hsl(24 60% 65%);
+  --purple-soft: hsl(315 45% 75%);
+  --pink-blush: #ffe5ee;
+
+  --color-home-bg: #f9fafb;
+
+  --gradient-start: #c9b5f7;
+  --gradient-end: #8b5cf6;
+
+  --font-heading: 'Poppins', 'sans-serif';
+  --font-body: 'Inter', 'sans-serif';
+
+  --card: #ffffff; /* 0 0% 100% */
+  --card-foreground: #020617; /* 222.2 84% 4.9% */
+
+  --popover: #ffffff; /* 0 0% 100% */
+  --popover-foreground: #020617; /* 222.2 84% 4.9% */
+
+  --primary-hero: hsl(140 65% 35%); /* 140 65% 35% */
+  --primary-foreground-hero: #ffffff; /* 0 0% 100% */
+  --primary-glow: hsl(140 75% 45%); /* 140 75% 45% */
+
+  --secondary-hero: #f0f4f8; /* 210 40% 96.1% */
+  --secondary-foreground-hero: #030712; /* 222.2 47.4% 11.2% */
+
+  --muted: hsl(24 100% 95%); /* 210 40% 96.1% */
+  --muted-foreground: hsl(340 20% 45%); /* 215.4 16.3% 46.9% */
+
+  --accent: hsl(315 45% 75%); /* 140 100% 85% */
+  --accent-foreground: hsl(0 0% 100%); /* 140 65% 25% */
+
+  --destructive: #ef4444; /* 0 84.2% 60.2% */
+  --destructive-foreground: #f0f4f8; /* 210 40% 98% */
+
+  --border: #ebe5e0; /* hsl(25 20% 90%) */
+  --input: #e2e8f0; /* 214.3 31.8% 91.4% */
+  --ring: hsl(42 76% 36%); /* 42 76% 36% */
+
+  /* Custom colors for health/fitness theme */
+  --nature-green: #16a249; /* hsl(142 76% 36%)  */
+  --nature-light: #e2f3e8;
+  --warm-rose: #ecc6d2; /* hsl(340 50% 85%); */
+  --warm-gold: #ffd966; /* hsl(45 100% 70%) */
+  --trust-brown: hsl(25, 35%, 25%);
+  --success: hsl(140 75% 45%); /* 140 75% 45% */
+  --success-foreground: #ffffff; /* 0 0% 100% */
+  --warning: #f59e0b; /* 35 95% 55% */
+  --warning-foreground: #ffffff; /* 0 0% 100% */
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--coral), var(--rose-gold));
+  --gradient-secondary: linear-gradient(180deg, var(--pink-blush), var(--background));
+  --gradient-accent: linear-gradient(45deg, var(--purple-soft), var(--coral-light));
+
+  /* Elegant shadows */
+  --shadow-coral: 0 10px 30px -10px var(--coral);
+  --shadow-glow: 0 0 40px var(--coral-light);
+  --shadow-soft: 0 4px 20px -2px rgba(238, 73, 98, 0.3);
+
+  --gradient-primary-light: linear-gradient(
+    135deg,
+    #fff,
+    rgba(22, 162, 73, 0.05),
+    rgba(22, 162, 73, 0.2)
+  );
+  --gradient-primary-light-reversed: linear-gradient(
+    135deg,
+    rgba(22, 162, 73, 0.2),
+    rgba(22, 162, 73, 0.05),
+    #fff
+  );
+  --gradient-promo: linear-gradient(45deg, hsl(140 75% 55%), hsl(140 75% 45%));
+
+  --gradient-premium: linear-gradient(135deg, hsl(45 100% 70%), hsl(142 76% 36%));
+  --gradient-dark: linear-gradient(180deg, var(--trust-brown), rgba(86, 60, 41, 0.8));
+  --gradient-darkest: linear-gradient(180deg, rgb(56, 66, 82), rgba(56, 66, 82, 0.8));
+  --gradient-green-transparent: linear-gradient(
+    180deg,
+    rgba(22, 162, 73, 0.9),
+    rgba(22, 160, 41, 0.8)
+  );
+  --gradient-accent: linear-gradient(45deg, hsl(140 100% 85%), hsl(195 100% 85%));
+  --gradient-natural: linear-gradient(135deg, var(--nature-green), var(--warm-gold));
+  --gradient-warm: linear-gradient(180deg, var(--warm-rose), var(--nature-light));
+  --gradient-warn: linear-gradient(90deg, #ef4444, #ecc6d2);
+  --gradient-warn-light: linear-gradient(
+    90deg,
+    rgba(239, 68, 68, 0.05),
+    rgba(236, 198, 210, 0.1),
+    rgba(255, 217, 102, 0.05)
+  );
+  --gradient-icon: linear-gradient(90deg, hsl(140 100% 85%), #16a249);
+
+  /* Shadows */
+  --shadow-elegant: 0 10px 30px -10px rgba(16, 185, 129, 0.3);
+  --shadow-warm: 0 8px 30px rgba(236, 198, 210, 0.2);
+  --shadow-premium: 0 20px 60px rgba(22, 162, 73, 0.15);
+
+  --blur-subtle: blur(1px);
+  --blur-medium: blur(8px);
+
+  /* Animations */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--background);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--foreground);
+
+  --section-gap: 160px;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.15;
+  font-family: var(--font-body);
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Кнопка закрытия диалогового окна */
+.p-dialog-header .p-button-text.p-button-secondary {
+  color: #fb2c36 !important;
+}
+
+.p-dialog-header .p-button-text.p-button-secondary:not(:disabled):hover,
+.p-dialog-header .p-button-text.p-button-secondary:not(:disabled):active {
+  background: transparent !important;
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--color-primary) !important;
+  }
+
+  .text-secondary {
+    color: var(--color-secondary) !important;
+  }
+
+  .text-foreground {
+    color: var(--foreground) !important;
+  }
+
+  .text-muted-foreground {
+    color: var(--muted-foreground) !important;
+  }
+
+  .text-coral {
+    color: var(--coral) !important;
+  }
+
+  .text-medical {
+    color: var(--medical) !important;
+  }
+
+  .text-headings {
+    color: var(--color-text-headings) !important;
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+
+  .bg-home {
+    background-color: var(--color-home-bg);
+  }
+
+  .bg-gradient-section {
+    background-image: var(--gradient-section);
+  }
+
+  .bg-medical {
+    background-color: var(--medical);
+  }
+
+  .bg-medical-light {
+    background-color: var(--medical-light);
+  }
+
+  /* классы для нового Hero */
+
+  .text-primary-hero {
+    color: var(--primary-hero) !important;
+  }
+
+  .text-secondary-hero {
+    color: var(--secondary-hero) !important;
+  }
+
+  .text-success {
+    color: var(--success) !important;
+  }
+
+  .text-danger {
+    color: var(--destructive);
+  }
+
+  .bg-primary-hero {
+    background-color: var(--primary-hero);
+  }
+
+  .bg-secondaryy-hero {
+    background-color: var(--secondary-hero);
+  }
+
+  .bg-accent {
+    background-color: var(--accent);
+  }
+
+  .bg-accent-foreground {
+    background-color: var(--accent-foreground);
+  }
+
+  .bg-success {
+    background-color: var(--success);
+  }
+
+  .bg-destructive {
+    background-color: var(--destructive);
+  }
+
+  .bg-coral {
+    background-color: var(--coral);
+  }
+
+  .bg-radial-gradient {
+    background-image: radial-gradient(
+      circle at left top,
+      var(--gradient-start),
+      var(--gradient-end)
+    ) !important;
+  }
+
+  /* New utility classes from otherHero.css */
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+
+  .bg-gradient-secondary {
+    background-image: var(--gradient-secondary);
+  }
+
+  .bg-gradient-primary-light {
+    background-image: var(--gradient-primary-light);
+  }
+
+  .bg-gradient-primary-light-reversed {
+    background-image: var(--gradient-primary-light-reversed);
+  }
+
+  .bg-gradient-promo {
+    background-image: var(--gradient-promo);
+  }
+
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+
+  .bg-gradient-accent {
+    background-image: var(--gradient-accent);
+  }
+
+  .bg-gradient-premium {
+    background-image: var(--gradient-premium);
+  }
+
+  .bg-gradient-dark {
+    background-image: var(--gradient-dark);
+  }
+
+  .bg-gradient-darkest {
+    background-image: var(--gradient-darkest);
+  }
+
+  .bg-gradient-green-transparent {
+    background-image: var(--gradient-green-transparent);
+  }
+
+  .bg-gradient-natural {
+    background-image: var(--gradient-natural);
+  }
+
+  .bg-gradient-warm {
+    background-image: var(--gradient-warm);
+  }
+
+  .bg-shimmer-gradient {
+    background-image: linear-gradient(90deg, hsl(142 76% 36%), hsl(45 100% 70%), hsl(142 76% 36%));
+  }
+
+  .bg-gradient-warn {
+    background-image: var(--gradient-warn);
+  }
+
+  .bg-gradient-warn-light {
+    background-image: var(--gradient-warn-light);
+  }
+
+  .bg-gradient-icon {
+    background-image: var(--gradient-icon);
+  }
+
+  .border-color {
+    border-color: var(--border);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-coral {
+    box-shadow: var(--shadow-coral) !important;
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow) !important;
+  }
+
+  .shadow-premium {
+    box-shadow: 8px 20px 60px rgba(1, 20, 83, 0.45) !important;
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  /* Animation classes */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-fade-in-left {
+    animation: fadeInLeft 0.5s ease-out forwards;
+  }
+
+  .animate-fade-in-right {
+    animation: fadeInRight 0.5s ease-out forwards;
+  }
+
+  .animate-pulse-glow {
+    animation: pulseGlow 2s infinite;
+  }
+
+  .animate-pulse-glow-timer {
+    animation: pulseGlow 2s infinite;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.4s ease-out;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 7s linear infinite;
+  }
+}
+
+@layer base {
+  :root {
+    --p-button-label-font-weight: 600 !important;
+
+    --p-button-primary-background: var(--gradient-primary) !important;
+    --p-button-primary-hover-background: var(--gradient-secondary) !important;
+    --p-button-primary-border-color: var(--gradient-primary) !important;
+    --p-button-primary-hover-border-color: var(--gradient-hero) !important;
+    --p-button-primary-active-background: var(--gradient-primary) !important;
+    --p-button-primary-focus-ring-color: var(--gradient-primary) !important;
+
+    /* Secondary кнопка */
+    --p-button-secondary-background: var(--coral) !important;
+    --p-button-secondary-active-background: var(--coral) !important;
+    --p-button-secondary-active-color: var(--color-primary) !important;
+    --p-button-secondary-hover-background: var(--coral) !important;
+    --p-button-secondary-border-color: var(--color-secondary) !important;
+    --p-button-secondary-color: var(--trust-brown) !important;
+    --p-button-secondary-hover-color: var(--success) !important;
+    --p-button-secondary-hover-border-color: var(--color-secondary-hover) !important;
+    --p-button-secondary-focus-ring-color: var(--color-secondary) / 0.5 !important;
+
+    --p-progressbar-value-background: var(--color-primary) !important
+  ;
+  }
+}
+
+/* Keyframe animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    opacity: '1';
+    box-shadow: 0 0 20px hsl(24 100% 88%);
+  }
+  50% {
+    opacity: '0.8';
+    box-shadow: 0 0 40px hsla(24, 100%, 88%, 0.3);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
