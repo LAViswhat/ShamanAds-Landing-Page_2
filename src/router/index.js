@@ -42,22 +42,22 @@ router.beforeEach((to, from) => {
   if (to.meta?.title) {
     document.title = to.meta.title;
   }
-  
+
   // Очищаем предыдущие CSS классы и атрибуты тем
   if (from.meta?.theme) {
     document.body.classList.remove(`landing-${from.meta.theme}`);
     document.documentElement.removeAttribute('data-theme');
   }
-  
+
   // Устанавливаем новую тему
   if (to.meta?.theme) {
     document.documentElement.setAttribute('data-theme', to.meta.theme);
     document.body.classList.add(`landing-${to.meta.theme}`);
   }
-  
+
   // Принудительная очистка всех возможных классов лендингов
   const allThemeClasses = ['landing-shamanlanding', 'landing-medicallanding', 'landing-sexy'];
-  allThemeClasses.forEach(className => {
+  allThemeClasses.forEach((className) => {
     if (className !== `landing-${to.meta?.theme}`) {
       document.body.classList.remove(className);
     }
