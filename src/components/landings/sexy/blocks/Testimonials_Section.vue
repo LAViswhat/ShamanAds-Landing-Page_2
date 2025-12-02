@@ -232,7 +232,7 @@ const testimonials = computed(() => {
 ::v-deep(.p-carousel-prev-button),
 ::v-deep(.p-carousel-next-button) {
   position: absolute !important;
-  top: 3%;
+  top: 4%;
   transform: translateY(-50%);
   color: var(--coral) !important;
   z-index: 10;

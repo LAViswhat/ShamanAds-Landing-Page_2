@@ -57,7 +57,7 @@ const testimonialsData = [
 ];
 
 const testimonialImages = import.meta.glob(
-  '@/assets/landings/shamanlanding/images/testimonials/*.{jpg,png,jpeg,gif,webp}',
+  '@/assets/landings/sexy/images/testimonials/*.{jpg,png,jpeg,gif,webp}',
   {
     eager: true,
     import: 'default',
@@ -243,7 +243,7 @@ const testimonials = computed(() => {
 ::v-deep(.p-carousel-prev-button),
 ::v-deep(.p-carousel-next-button) {
   position: absolute !important;
-  top: 3%;
+  top: 4%;
   transform: translateY(-50%);
   color: var(--color-primary) !important;
   z-index: 10;
